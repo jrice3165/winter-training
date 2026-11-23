@@ -431,7 +431,7 @@ dict(
     how_to=[
         "Use ONLY with great rewards.",
         "With multiple dogs: name first (gets that dog's head check), then 'Here'.",
-        "Train it with restrained recalls (see next).",
+        "Train it with restrained recalls (Life Skills & Recall, Day 5).",
     ],
     gaps=["Your notes say 'Describe…'. Steps above are taken from F03/F05/PK4."],
     prerequisites=["name_game"], builds_toward=["restrained_recall"],

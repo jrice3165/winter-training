@@ -96,19 +96,61 @@ BONUS = {
  ],
 }
 
+import re
+CODE = re.compile(r"\s*\((?:F|PK)\d+[A-Z]?(?:[/,]\s*(?:F|PK)?\d+[A-Z]?)*\)|,?\s*\b(?:F|PK)\d+[A-Z]?\b(?=\))")
+def clean(s):
+    if not s: return s
+    s = CODE.sub("", s)
+    return re.sub(r"\s+([.,;:])", r"\1", s).strip()
+
+ALTERNATES = {
+  "focus": ["push_away_and_run", "yes_marker", "informal_recall_cue"],
+  "calm": ["sit_and_stays", "door_waits"],
+  "body": ["off", "between"],
+  "life": ["collar_body_hold", "meet_and_greet", "recall_here_come"],
+  "agility": ["around_cone", "blind_cross_flat"],
+}
+GEAR.update({
+  "push_away_and_run": ["Clear hallway or open room", "Tug toy for when they catch you"],
+  "yes_marker": ["Small treats", "Nothing else: just your voice"],
+  "informal_recall_cue": ["Treats in a pocket", "A fun, silly voice"],
+  "sit_and_stays": ["Small treats in an open hand", "Non-slip rug"],
+  "door_waits": ["Any interior door or the crate door", "Leash for outside doors"],
+  "off": ["Low ottoman, cushion or dog bed", "Kibble to toss"],
+  "between": ["Treats in both hands", "Space to stand with feet apart"],
+  "collar_body_hold": ["A calm moment (after a walk or meal)", "A helper with treats (optional)"],
+  "meet_and_greet": ["A visitor who'll ignore the dog at first", "Kitchen chair", "Leash"],
+  "recall_here_come": ["Your best rewards, saved for this", "Hallway or basement"],
+  "around_cone": ["Upside-down recycling bin, big mixing bowl or cone", "Treats"],
+  "blind_cross_flat": ["A helper to hold the dog", "Treat or toy in each hand", "Hallway"],
+})
+EXTRA_BONUS = [
+  dict(kind="Make", title="Snuffle towel", text="Lay an old bath towel flat, sprinkle kibble, and roll it up loosely. Tie a loose knot. Ready for a calm sniffing break."),
+  dict(kind="Move", title="Stretch with your dog nearby", text="Five minutes of gentle stretching: calves, hips, shoulders. Handlers who bend and turn a lot need loose hips too."),
+]
+
 def drill(i):
     s = S[i]
     prog = s.get("progressions", [])
-    nxt = prog[0]["text"] if prog else None
-    tips = [t for t in s.get("tips", []) if "Video:" not in t and "http" not in t and "notes say" not in t and "Why 'mugging'" not in t and "word you were" not in t]
+    nxt = clean(prog[0]["text"]) if prog else None
+    tips = [clean(t) for t in s.get("tips", []) if "Video:" not in t and "http" not in t and "notes say" not in t and "Why 'mugging'" not in t and "word you were" not in t]
     return dict(id=i, name=s["name"], purpose=s["purpose"], level=s["level"],
-                cues=s.get("cues", []), steps=s.get("how_to", [])[:7], next=nxt,
+                cues=s.get("cues", []), steps=[clean(x) for x in s.get("how_to", [])[:7]], next=nxt,
                 tip=(tips[0] if tips else None), gear=GEAR[i],
                 source=", ".join(sorted({wk(c) for c in s["sources"]}, key=lambda x: (x.startswith("Your"), x))))
 
 OUT = dict(tracks=[dict(id=t["id"], name=t["name"], short=t["short"], blurb=t["blurb"],
-                        days=[dict(drill=drill(d), bonus=b) for d, b in zip(t["drills"], BONUS[t["id"]])]) for t in TRACKS])
+                        days=[dict(drill=drill(d), bonus=b) for d, b in zip(t["drills"], BONUS[t["id"]])],
+                        alternates=[drill(a) for a in ALTERNATES[t["id"]]]) for t in TRACKS],
+           bonusPool=[b for t in TRACKS for b in BONUS[t["id"]]] + EXTRA_BONUS)
+for i, b in enumerate(OUT["bonusPool"]): b["id"] = f"b{i+1}"
 for t in OUT["tracks"]:
     assert len(t["days"]) == 5
+def write(path):
+    for tr in OUT["tracks"]:
+        for d in tr["days"] + [dict(drill=a) for a in tr["alternates"]]:
+            if d["drill"]["id"] == "lap_turn": d["drill"]["img"] = "assets/lap-turn-week13.gif"
+    json.dump(dict(version=2, dogProfile=dict(name="Sunny"), **OUT), open(path, "w"), indent=2, ensure_ascii=False)
+
 if __name__ == "__main__":
     print(json.dumps(OUT, ensure_ascii=False))

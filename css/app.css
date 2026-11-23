@@ -70,3 +70,8 @@ body.printing .app{display:none}body.printing .sheet{display:block}
 body.printing .sbar{display:flex}
 @media(max-width:760px){.main{grid-template-columns:minmax(0,1fr)}.days{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax(150px,46%);overflow-x:auto;padding-bottom:4px}.card{padding:18px}}
 @media(prefers-reduced-motion:no-preference){.drill,.bonus,.gear{animation:in .25s ease-out}@keyframes in{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}}
+.cardtop{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.swap{min-height:40px;padding:0 14px;font-size:13px}
+.ghost{min-height:44px;padding:0 4px;background:none;border:0;color:var(--acorn);font:600 14px/1 "Space Grotesk",sans-serif;letter-spacing:.03em;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px}
+.ghost:hover{text-decoration-color:currentColor}
+[hidden]{display:none!important}

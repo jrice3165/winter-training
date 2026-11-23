@@ -2,6 +2,8 @@
 
 A calm, 15-minute-a-day indoor dog training planner. Pick one theme for the week and you get one drill per day (Day 1–5), a humans-only bonus activity, household gear ideas, and a printable one-page sheet.
 
+Don't like a day's drill? **Pick another drill** swaps in a different one from the same theme (each theme has 2–3 extra drills). **Pick another** on the bonus card does the same for the humans-only activity. Swaps are remembered per theme, and **Reset week** restores the original plan.
+
 Plain HTML, CSS and JavaScript, with no build step and no dependencies.
 
 ## Run it locally
@@ -32,7 +34,7 @@ css/tokens.css                 Design tokens (colours, light/dark) from docs/DES
 css/app.css                    Layout and components
 css/print.css                  One-page Letter printable sheet
 js/app.js                      Theme picker, day view, printable sheet, saved dog name
-data/training-curriculum.json  5 tracks × 5 drills + humans-only bonus activities
+data/training-curriculum.json  5 tracks × 5 drills (+ alternates) and a pool of humans-only bonuses
 assets/                        Images (Week 13 lap-turn diagram)
 docs/                          DESIGN.md, ARCHITECTURE.md, full 48-skill library (handbook + JSON)
 tools/                         Python scripts that regenerate the curriculum from the skill library
@@ -41,14 +43,12 @@ tools/                         Python scripts that regenerate the curriculum fro
 ## Editing the curriculum
 
 - **Quick edits:** change `data/training-curriculum.json` directly.
-- **Regenerate from the skill library:** edit `tools/data.py` (skills) or `tools/planner_data.py` (tracks, gear, bonuses), then run:
+- **Regenerate from the skill library:** edit `tools/data.py` (skills) or `tools/planner_data.py` (tracks, alternates, gear, bonuses), then run:
 
 ```bash
 cd tools
-python3 -c "import json,planner_data as p; json.dump(dict(version=1,dogProfile=dict(name='Sunny'),tracks=p.OUT['tracks']),open('../data/training-curriculum.json','w'),indent=2,ensure_ascii=False)"
+python3 -c "import planner_data as p; p.write('../data/training-curriculum.json')"
 ```
-
-If you regenerate, re-add `"img": "assets/lap-turn-week13.gif"` to the lap turn drill.
 
 ## Notes
 
