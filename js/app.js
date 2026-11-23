@@ -124,7 +124,7 @@ $('printbtn').addEventListener('click', () => { renderSheet(); document.body.cla
 $('back').addEventListener('click', () => document.body.classList.remove('printing'));
 $('doprint').addEventListener('click', () => { try { window.print(); } catch (e) {} });
 window.addEventListener('beforeprint', renderSheet);
-fetch('data/training-curriculum.json')
+fetch('data/training-curriculum.json', {cache: 'no-cache'})
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => { DATA = d; tIdx = Math.min(tIdx, DATA.tracks.length - 1); all(); renderSheet(); })
   .catch(() => { document.querySelector('main').innerHTML = '<p style="padding:40px 0">Could not load the curriculum. Open this app through a web server (see README), not by double-clicking the file.</p>'; });

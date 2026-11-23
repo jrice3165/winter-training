@@ -55,3 +55,7 @@ python3 -c "import planner_data as p; p.write('../data/training-curriculum.json'
 - The dog's name, chosen theme and day are saved in the browser (localStorage).
 - Design rule from DESIGN.md: no green anywhere.
 - Curriculum source: Sundog Foundation agility class notes (2021–22), Puppy Kindergarten notes (2022), and personal notes.
+
+## Releasing an update
+
+When you change CSS or JS, bump the `?v=` number on the `<link>` and `<script>` tags in `index.html` (for example `?v=2` to `?v=3`). That makes browsers load the new files instead of a cached copy. The curriculum JSON is always re-checked.
