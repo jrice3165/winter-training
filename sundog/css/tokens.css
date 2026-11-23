@@ -1,0 +1,9 @@
+/* Sundog Winter Training (test): orange & blue theme.
+   Variable names are shared with the main app: --acorn = primary blue, --amber/--honey = oranges. */
+:root{color-scheme:light dark;
+ --bg:light-dark(#FFFAF3,#0E1A2E);--card:light-dark(#FFF0DE,#15243C);--card2:light-dark(#FFFFFF,#1B2D4A);--over:light-dark(#FFE0BD,#243A5E);
+ --ink:light-dark(#10233F,#F4F1EA);--ink2:light-dark(#33445E,#C9D3E3);--muted:light-dark(#56657B,#9FB0C8);
+ --acorn:light-dark(#1F5AA6,#8DBBF2);--acornH:light-dark(#17467F,#B0D0F7);--onacorn:light-dark(#FFFFFF,#0E1A2E);
+ --amber:#F28C28;--honey:light-dark(#FDB56B,#F7A957);--line:light-dark(#F2D9BC,#2A3D5E);--edge:light-dark(rgba(31,90,166,.16),rgba(141,187,242,.18));
+ --shadow:0 8px 24px -4px rgba(16,35,63,.10),0 2px 6px -1px rgba(16,35,63,.05)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}

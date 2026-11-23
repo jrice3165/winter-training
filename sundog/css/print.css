@@ -1,0 +1,7 @@
+/* One-page Letter printable sheet */
+@media print{
+ @page{size:letter portrait;margin:.5in}
+ body{background:#FFFFFF!important;color:#000!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .app,.sbar,.no-print{display:none!important}
+ .sheet{display:block!important;margin:0;padding:0;border:0;max-width:none;page-break-inside:avoid}
+}

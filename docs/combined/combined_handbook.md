@@ -1,6 +1,6 @@
-# Dog Training Skill Library
+# Dog Training Skill Library (combined)
 
-Your Sundog Foundation agility class notes (2021–22), Puppy Kindergarten notes (2022), personal notes and saved links, organized by theme and skill.
+Everything together: Sundog class notes, your personal notes and outside links. See docs/sundog for the Sundog-only version.
 
 **Levels:** 1 = start here · 2 = building · 3 = advanced. **Source codes:** `PK1–PK4` Puppy Kindergarten weeks; `F02–F18` Foundation weeks; `F05A` toy-drive article; `F13` lap-turn diagram; `F13V`/`F14V` videos; `NOTES` your own notes. Full list at the end.
 
@@ -555,7 +555,7 @@ Emergency-level cue: come right to me, fast. Possibly lifesaving.
 **How to**
 1. Use ONLY with great rewards.
 2. With multiple dogs: name first (gets that dog's head check), then 'Here'.
-3. Train it with restrained recalls (see next).
+3. Train it with restrained recalls (Life Skills & Recall, Day 5).
 
 > ⚠️ Your notes say 'Describe…'. Steps above are taken from F03/F05/PK4.
 

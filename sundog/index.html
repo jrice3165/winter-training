@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sundog Winter Training (test)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&family=Source+Sans+3:wght@400;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox='0 0 40 40'%3E%3Crect x='2' y='2' width='36' height='36' rx='8' fill='%231F5AA6'/%3E%3Cg stroke='%23F28C28' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M20 7v4M20 29v4M7 20h4M29 20h4M10.8 10.8l2.8 2.8M26.4 26.4l2.8 2.8M10.8 29.2l2.8-2.8M26.4 13.6l2.8-2.8'/%3E%3C/g%3E%3Ccircle cx='20' cy='20' r='6.2' fill='%23F28C28'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/tokens.css?v=1">
+<link rel="stylesheet" href="css/app.css?v=1">
+<link rel="stylesheet" href="css/print.css?v=1">
+</head>
+<body>
+<div class="app">
+<header><div class="wrap hd">
+  <div class="brand">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="2" y="2" width="36" height="36" rx="8" fill="#1F5AA6"/><g stroke="#F28C28" stroke-width="2.4" stroke-linecap="round"><path d="M20 7v4M20 29v4M7 20h4M29 20h4M10.8 10.8l2.8 2.8M26.4 26.4l2.8 2.8M10.8 29.2l2.8-2.8M26.4 13.6l2.8-2.8"/></g><circle cx="20" cy="20" r="6.2" fill="#F28C28"/></svg>
+    <h1>Sundog Winter Training <span class="test">(test)</span></h1>
+  </div>
+  <label class="dog" for="dogname"><span class="pip" id="pip">S</span><input id="dogname" value="Sunny" aria-label="Your dog's name" maxlength="16"></label>
+  <button class="btn btn2" id="printbtn" type="button">Printable sheet</button>
+</div></header>
+<main class="wrap">
+  <nav class="tracks" id="tracks" aria-label="Pick this week's theme"></nav>
+  <section class="intro">
+    <div><span class="lab wk">This week's theme · 5 days · 15 minutes a day</span><h2 id="tname"></h2><p id="tblurb"></p></div>
+    <button class="ghost" id="reset" type="button" hidden>Reset week</button>
+  </section>
+  <div class="days" id="days" role="group" aria-label="Days"></div>
+  <div class="main">
+    <article class="card drill" id="drill"></article>
+    <div class="side"><section class="card bonus" id="bonus"></section><section class="card gear" id="gear"></section></div>
+  </div>
+</main>
+</div>
+<div class="sbar no-print"><button class="btn btn1" id="doprint" type="button">Print this sheet</button><button class="btn btn2" id="back" type="button">Back to planner</button><span class="small" style="align-self:center">If printing is blocked here, download the page and print it from your browser.</span></div>
+<section class="sheet printable-page-container" id="sheet"></section>
+<script src="js/app.js?v=1" defer></script>
+</body>
+</html>

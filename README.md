@@ -6,6 +6,31 @@ Don't like a day's drill? **Pick another drill** swaps in a different one from t
 
 Plain HTML, CSS and JavaScript, with no build step and no dependencies.
 
+## Two apps in this repo
+
+| App | Folder | Content | Live |
+|---|---|---|---|
+| **Winter Training** | `/` (root) | Sundog class notes + personal notes + outside links (combined) | https://jrice3165.github.io/winter-training/ |
+| **Sundog Winter Training (test)** | `/sundog` | Sundog Agility materials only, orange & blue theme | https://jrice3165.github.io/winter-training/sundog/ |
+
+They share the same code; each has its own `data/training-curriculum.json`, `css/tokens.css` and saved settings.
+
+## Resource sets (docs/)
+
+| Folder | What's in it |
+|---|---|
+| `docs/sundog/` | Sundog-only skill library: handbook (Markdown), JSON, CSV index (41 skills) |
+| `docs/personal-notes/` | Your own notes, separated out |
+| `docs/external-links/` | Saved links from outside Sundog (Absolute Dogs, OneMind Dogs, etc.) |
+| `docs/combined/` | The original mixed library |
+
+Regenerate all of these with `python3 tools/split.py`. The Sundog app's curriculum comes from `tools/sundog_planner.py`:
+
+```bash
+cd tools
+python3 -c "import sundog_planner as p; p.write('../sundog/data/training-curriculum.json')"
+```
+
 ## Run it locally
 
 The app loads its curriculum from `data/training-curriculum.json`, so it needs to be served by a web server. Double-clicking `index.html` won't load the data.
@@ -18,7 +43,7 @@ python3 -m http.server 8000      # macOS has Python 3 built in
 npx serve .
 ```
 
-Then open http://localhost:8000.
+Then open http://localhost:8000 (main app) or http://localhost:8000/sundog/ (Sundog test app).
 
 ## Demo online (GitHub Pages)
 
@@ -36,8 +61,9 @@ css/print.css                  One-page Letter printable sheet
 js/app.js                      Theme picker, day view, printable sheet, saved dog name
 data/training-curriculum.json  5 tracks × 5 drills (+ alternates) and a pool of humans-only bonuses
 assets/                        Images (Week 13 lap-turn diagram)
-docs/                          DESIGN.md, ARCHITECTURE.md, full 48-skill library (handbook + JSON)
-tools/                         Python scripts that regenerate the curriculum from the skill library
+docs/                          DESIGN.md, ARCHITECTURE.md, and the separated resource sets (see above)
+sundog/                        Sundog Winter Training (test) app
+tools/                         Python scripts: data.py (all skills), sundog_data.py (Sundog filter), split.py, planner builders
 ```
 
 ## Editing the curriculum
