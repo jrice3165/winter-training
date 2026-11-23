@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "dogProfile": {
+    "name": "Sunny"
+  },
+  "tracks": [
+    {
+      "id": "focus",
+      "name": "Focus & Connection",
+      "short": "Focus",
+      "blurb": "Build a dog who checks in with you, loves your hands, and wants to work.",
+      "days": [
+        {
+          "drill": {
+            "id": "name_game",
+            "name": "Name Game (response to name)",
+            "purpose": "The dog snaps its head to you when it hears its name. This is the first 'recall' a puppy learns.",
+            "level": 1,
+            "cues": [],
+            "steps": [
+              "Pre-load 5–8 treats in your hand. Sitting/standing doesn't matter; this isn't obedience.",
+              "Wait until the dog is NOT looking at you, then say its name once.",
+              "The instant the head flicks toward you, feed.",
+              "Repeat & treat."
+            ],
+            "next": "No distractions > gradually add distractions, close and at distance.",
+            "tip": "Name = 'head check' (look at me and wait for the next instruction), not 'come here'. In agility the name is a redirect (F03).",
+            "gear": [
+              "Treat pouch or a jar by the kitchen",
+              "Kibble from today's meal"
+            ],
+            "source": "Foundation wk 2, Foundation wk 3, Foundation wk 5, Puppy K wk 1, Puppy K wk 3, Your notes"
+          },
+          "bonus": {
+            "kind": "Watch",
+            "title": "See shaping in action",
+            "text": "Watch a 12-week puppy learn to back onto an object. Notice exactly when the trainer clicks and how the criteria change.",
+            "link": "https://youtu.be/CpA25qUBxiA"
+          }
+        },
+        {
+          "drill": {
+            "id": "charge_clicker",
+            "name": "Charging the clicker",
+            "purpose": "Teach the dog that the click always means a treat is coming.",
+            "level": 1,
+            "cues": [
+              "(click)"
+            ],
+            "steps": [
+              "Have a handful of really good treats cut small.",
+              "Click once, then feed. The treat follows the click, not at the same time. Click > treat, click > treat.",
+              "Don't point the clicker at the dog like a remote; hold it at your side or behind your back.",
+              "Repeat standing, sitting, moving, and in different places.",
+              "A few times a day, 6–10 treats each. Done when the dog visibly anticipates the treat at the click."
+            ],
+            "next": null,
+            "tip": null,
+            "gear": [
+              "Clicker (or a retractable pen click)",
+              "Tiny soft treats"
+            ],
+            "source": "Foundation wk 5, Foundation wk 6"
+          },
+          "bonus": {
+            "kind": "Practise",
+            "title": "Play the Shaping Game",
+            "text": "One person leaves the room; the others pick a behaviour (turn on a lamp, sit on the floor). Click only, no words or pointing. You'll find out fast how much timing matters."
+          }
+        },
+        {
+          "drill": {
+            "id": "hand_target",
+            "name": "Hand targeting ('Touch')",
+            "purpose": "Nose-to-palm touch. A portable focus tool, a distraction from trouble, and the first step toward contact training.",
+            "level": 1,
+            "cues": [
+              "Touch",
+              "Target"
+            ],
+            "steps": [
+              "Put a handful of small treats in one hand. In the other, hold one treat between two fingers of an open palm.",
+              "Present the open palm so the dog sees/smells the treat.",
+              "When the nose touches the palm, say 'Yes' as the dog eats the treat.",
+              "Wean the finger treat; present an empty palm and add 'Touch'. When the dog bumps it, reward by presenting the treat on the palm where they touched."
+            ],
+            "next": "Treat between fingers > empty palm with 'Touch'.",
+            "tip": "Great for redirecting a puppy or getting attention in stressful situations.",
+            "gear": [
+              "Just your hand",
+              "Plastic lid as a hand-held target"
+            ],
+            "source": "Foundation wk 12, Foundation wk 14, Puppy K wk 2, Puppy K wk 3, Puppy K wk 4, Your notes"
+          },
+          "bonus": {
+            "kind": "Make",
+            "title": "Prep a week of treats",
+            "text": "Cut cheese, cooked chicken or hot dogs into pea-sized pieces. Bag them in session-sized portions (5–8 per exercise) and freeze."
+          }
+        },
+        {
+          "drill": {
+            "id": "cookie_fingers",
+            "name": "Cookie fingers",
+            "purpose": "A signal that means 'come to this hand, there's food'. The basis for luring and for many handling moves.",
+            "level": 1,
+            "cues": [],
+            "steps": [
+              "Treat in hand, held at the dog's nose height.",
+              "Shake your wrist/hand up and down; the dog follows the hand.",
+              "Practise with both hands."
+            ],
+            "next": null,
+            "tip": "Teaches the dog to watch your body language and value your hand.",
+            "gear": [
+              "Soft treats you can hold between fingers",
+              "Clear hallway"
+            ],
+            "source": "Foundation wk 11, Foundation wk 13, Foundation wk 8, Your notes"
+          },
+          "bonus": {
+            "kind": "Move",
+            "title": "Work on your balance",
+            "text": "Stand on one foot for 30 seconds while you brush your teeth, then switch. Next, walk heel-to-toe down the hallway. Steady handlers make clearer cues."
+          }
+        },
+        {
+          "drill": {
+            "id": "find_scatter",
+            "name": "'Find' / 'Scatter' (treats on the ground)",
+            "purpose": "Permission to scavenge for a moment. Gets attention, removes attention from something else, and resets the dog's position.",
+            "level": 2,
+            "cues": [
+              "Find",
+              "Search",
+              "Scatter"
+            ],
+            "steps": [
+              "'Find'/'Search' = throw one treat. 'Scatter' = throw 4 or more.",
+              "Example: release off a contact with 'Okay' then 'Find' (throw forward); next throw a treat behind the board so you can reload the target plate and the dog can re-load into 2on2off."
+            ],
+            "next": null,
+            "tip": "Match treat value to how high the distractions are.",
+            "gear": [
+              "Kibble",
+              "Rug or yoga mat to scatter on (easier on paws, slows the hunt)"
+            ],
+            "source": "Foundation wk 18"
+          },
+          "bonus": {
+            "kind": "Read",
+            "title": "Learn your cue words",
+            "text": "Pick one word each for 'Yes', 'Good', your release, and 'Here'. Write them on a sticky note for the fridge so everyone in the house uses the same ones."
+          }
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "name": "Self-Control & Calm",
+      "short": "Calm",
+      "blurb": "Impulse control games: good things come from waiting and choosing well.",
+      "days": [
+        {
+          "drill": {
+            "id": "its_your_choice",
+            "name": "It's Your Choice (the 'Mugging' game)",
+            "purpose": "Self-control taught through body language only: the treats are available when the dog stops trying to take them.",
+            "level": 1,
+            "cues": [],
+            "steps": [
+              "Hold several small treats on an open palm in front of the dog.",
+              "If the dog grabs, nuzzles, paws or chews: just close your hand into a fist. Don't pull away. Say NOTHING; no verbal correction.",
+              "Open again. When the dog doesn't go for the treats, mark 'Yes' and, with your other hand, take one treat off the palm and feed it.",
+              "Repeat, rewarding every right choice."
+            ],
+            "next": "Move the open hand around: up, down, to the side.",
+            "tip": "Timing matters: open/close the hand at the right moment by reading body language (PK3).",
+            "gear": [
+              "Small treats",
+              "Somewhere to sit on the floor"
+            ],
+            "source": "Foundation wk 12, Foundation wk 2, Foundation wk 3, Foundation wk 4, Foundation wk 5, Foundation wk 7, Foundation wk 8, Puppy K wk 1, Puppy K wk 3, Puppy K wk 4, Your notes"
+          },
+          "bonus": {
+            "kind": "Bake",
+            "title": "Bake pumpkin oat treats",
+            "text": "Mix 1 cup oat flour, ½ cup plain pumpkin purée and 2 tbsp xylitol-free peanut butter. Roll, cut into small squares, bake at 350°F for about 20 minutes. Cool completely; keep refrigerated."
+          }
+        },
+        {
+          "drill": {
+            "id": "take_it",
+            "name": "Take it / Get it / OK (permission) & 'This and That'",
+            "purpose": "The dog waits for permission instead of lunging at dropped things. Builds patience and impulse control.",
+            "level": 1,
+            "cues": [
+              "Get It",
+              "Take It",
+              "OK",
+              "Ready"
+            ],
+            "steps": [
+              "Drop a kibble and cover it with your hand. Let the dog sniff, but don't lift your hand until they back off.",
+              "Then say 'take it' (or 'get it'/'ok') and let them eat it.",
+              "Slowly lengthen the wait before the release.",
+              "Do the same with toys.",
+              "'This and That' (F08): alternate 'Leave It' with 'Ready'... 'Get It' so the dog learns the difference between not allowed and allowed."
+            ],
+            "next": null,
+            "tip": "Class meaning: 'Ready' = get ready, look ahead/focus; 'Get It' = permission to go do it.",
+            "gear": [
+              "Kibble",
+              "A favourite toy"
+            ],
+            "source": "Foundation wk 4, Foundation wk 6, Foundation wk 8, Your notes"
+          },
+          "bonus": {
+            "kind": "Move",
+            "title": "Calm breathing break",
+            "text": "Five slow breaths: in for 4, out for 6. Dogs read our body; a calm handler makes calm games easier."
+          }
+        },
+        {
+          "drill": {
+            "id": "leave_it",
+            "name": "Leave it",
+            "purpose": "Don't touch that: food on the floor, a sock, a toy. A safety skill (e.g. broken glass with food on the kitchen floor), and later used in agility when a toy on the ground is the reward.",
+            "level": 2,
+            "cues": [
+              "Leave It"
+            ],
+            "steps": [
+              "Class method (F08): lead the dog to a food container (or toy) to sniff, say 'Leave It' and redirect, then feed a treat from you. Repeat a few times.",
+              "Then play 'This and That' (see Take it): 'Ready'... 'Get It' gives permission.",
+              "Your method A: drop a kibble far enough away that the dog can't easily get it, say 'leave it', reward with a better treat from you. Slowly decrease the distance.",
+              "Your method B (toys): on leash, walk past a good toy (or treat), say 'leave it' and keep walking with gentle leash pressure. Start further away if needed."
+            ],
+            "next": "Increase temptation: open the food container.",
+            "tip": null,
+            "gear": [
+              "Lidded food container",
+              "Leash",
+              "Toy on the floor"
+            ],
+            "source": "Foundation wk 8, Your notes"
+          },
+          "bonus": {
+            "kind": "Watch",
+            "title": "Crate games video",
+            "text": "A short video on helping a dog love its crate. Watch how fast the reward follows going in.",
+            "link": "https://youtu.be/FQ7evQmSWYk"
+          }
+        },
+        {
+          "drill": {
+            "id": "crate_games",
+            "name": "Crate games ('Your In, Your Out')",
+            "purpose": "Make the crate a happy, safe place to drive into and wait in. Useful for class, trials, travel, and visiting.",
+            "level": 1,
+            "cues": [
+              "Kennel",
+              "Crate",
+              "Bed",
+              "In"
+            ],
+            "steps": [
+              "Throw a couple of treats to the back of the crate.",
+              "As soon as they're eaten, release the dog by throwing a treat outside the crate (or reward coming out with a quick tug)."
+            ],
+            "next": "Build speed in and out. Once the dog drives in fast, add the verbal cue.",
+            "tip": null,
+            "gear": [
+              "Crate with the pad removed",
+              "Tug toy for the exit"
+            ],
+            "source": "Foundation wk 2, Foundation wk 3, Foundation wk 8"
+          },
+          "bonus": {
+            "kind": "Read",
+            "title": "Boundary Games",
+            "text": "A free guide from Absolute Dogs with games that test your dog's commitment to a mat or place.",
+            "link": "https://absolutedog.s3-eu-west-1.amazonaws.com/NBN+Bootcamps/Resources/aD-BoundaryGames__v11-low.pdf"
+          }
+        },
+        {
+          "drill": {
+            "id": "mat_work",
+            "name": "Mat work ('Go to bed' / 'Place')",
+            "purpose": "Going to the mat means lie down and relax until released.",
+            "level": 1,
+            "cues": [
+              "Go on your Bed",
+              "Go to your Mat",
+              "OK"
+            ],
+            "steps": [
+              "Lure onto the bed/mat while saying 'Go on your bed'. 'Yes' and treat when on it; 'Good' while they stay.",
+              "Release BEFORE the pup leaves: show a treat, throw it 2–3 ft away, say 'OK'."
+            ],
+            "next": "Lure into a down on the mat (don't cue 'down'); the mat should come to mean 'lie down'. Feed in position, then hold collar, throw a treat, release quickly before they break.",
+            "tip": null,
+            "gear": [
+              "Bath mat, towel or dog bed",
+              "Kong or chew for longer stays"
+            ],
+            "source": "Puppy K wk 1, Puppy K wk 3, Puppy K wk 4, Your notes"
+          },
+          "bonus": {
+            "kind": "Make",
+            "title": "Fill and freeze Kongs",
+            "text": "Stuff three Kongs with soaked kibble and a smear of plain yogurt or pumpkin, then freeze. Ready-made mat-time for the rest of the week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "name": "Body Awareness",
+      "short": "Body",
+      "blurb": "Feet, back ends and new surfaces. Confidence and coordination for indoor days.",
+      "days": [
+        {
+          "drill": {
+            "id": "novel_surfaces",
+            "name": "Luring onto objects & new surfaces",
+            "purpose": "Confidence on different textures and objects; the foundation for perch work and contacts.",
+            "level": 1,
+            "cues": [
+              "Feet",
+              "Good",
+              "Yes"
+            ],
+            "steps": [
+              "Lure the dog across the surface; give lots of treats just for trying.",
+              "Then lure front feet onto it ('feet'), and later back feet only.",
+              "Increase time on the object: 'Good' = keep going, 'Yes' + reward = done."
+            ],
+            "next": "Lure onto more objects; longer duration.",
+            "tip": "Make sure the surface is safe for their feet.",
+            "gear": [
+              "Flattened cardboard box",
+              "Yoga mat or folded towel",
+              "Squishy exercise mat"
+            ],
+            "source": "Foundation wk 2, Foundation wk 3, Puppy K wk 3, Puppy K wk 4, Your notes"
+          },
+          "bonus": {
+            "kind": "Move",
+            "title": "Work on your balance",
+            "text": "Stand on a folded towel on one leg for 20 seconds each side. Feel what your dog feels on a wobbly surface."
+          }
+        },
+        {
+          "drill": {
+            "id": "feet",
+            "name": "'Feet' (front feet on a target)",
+            "purpose": "Point to something and the dog puts its front feet on it.",
+            "level": 1,
+            "cues": [
+              "Feet"
+            ],
+            "steps": [
+              "Lure front feet onto an object while saying 'feet'.",
+              "Fade the lure to a point."
+            ],
+            "next": null,
+            "tip": "Pair with 'Off' as an active attention game.",
+            "gear": [
+              "Upside-down dog bowl",
+              "Thick book",
+              "Bottom stair"
+            ],
+            "source": "Your notes"
+          },
+          "bonus": {
+            "kind": "Make",
+            "title": "Build a perch",
+            "text": "Find a sturdy upside-down tub or bowl. Glue a rubber shelf liner or yoga mat scrap to the top for grip. Test it with your own hand pressure before the dog uses it."
+          }
+        },
+        {
+          "drill": {
+            "id": "shaping",
+            "name": "Shaping & capturing",
+            "purpose": "Build behaviours from scratch, with no physical control or corrections, by marking small steps toward a goal.",
+            "level": 2,
+            "cues": [],
+            "steps": [
+              "Capturing: wait for the dog to do the whole behaviour (e.g. sit), mark and reward it, then add a cue once it happens often.",
+              "Shaping: mark and reward successive small steps toward the final behaviour.",
+              "Novel-object starter (F07): put an object down, stare at it. No words, no luring. Click & feed for looking at it, moving toward it, nose-touching it, a foot on it.",
+              "Raise criteria gradually. At each new level reward every time for a handful of reps, then reward randomly, then raise criteria again.",
+              "Add the cue only once the final behaviour is reliable; then reward only cued reps."
+            ],
+            "next": "Free interaction with novel objects (look, approach, nose, foot).",
+            "tip": "Shaping needs good observation and timing; it's the more advanced method.",
+            "gear": [
+              "Pizza box or shallow cardboard box",
+              "Two small books",
+              "Clicker"
+            ],
+            "source": "Foundation wk 11, Foundation wk 12, Foundation wk 6, Foundation wk 7"
+          },
+          "bonus": {
+            "kind": "Watch",
+            "title": "Strengthening for agility",
+            "text": "Saved link on strengthening skills for agility dogs. Save any exercises that need equipment for later.",
+            "link": "https://hubs.li/Q03DhCh40"
+          }
+        },
+        {
+          "drill": {
+            "id": "perch_work",
+            "name": "Perch work: rear-end awareness (pivots)",
+            "purpose": "Teach the dog it has a back end it can move independently while the front feet stay put, and to move away from handler pressure.",
+            "level": 2,
+            "cues": [],
+            "steps": [
+              "Prerequisite: dog happily stands on novel objects for a few seconds.",
+              "Lure (or shape with the clicker, F06) the front two feet onto the perch.",
+              "Stand beside the dog, treat at its nose, and step into the dog ('putting pressure on').",
+              "When the hind end moves away while front feet stay on: 'Yes'/click and reward.",
+              "Start with one step; build to a full circle.",
+              "Switch hands/sides and go the other way."
+            ],
+            "next": null,
+            "tip": "Both directions matter: builds rear-end awareness, muscle tone and balance on both sides.",
+            "gear": [
+              "Upside-down washing tub or sturdy bowl",
+              "Squeeze tube of soft food or peanut butter (xylitol-free)"
+            ],
+            "source": "Foundation wk 4, Foundation wk 5, Foundation wk 6, Your notes"
+          },
+          "bonus": {
+            "kind": "Bake",
+            "title": "Lickable treat tube",
+            "text": "Blend plain cottage cheese with a spoon of pumpkin and spoon it into a reusable squeeze pouch. Perfect for perch work. Keep it refrigerated."
+          }
+        },
+        {
+          "drill": {
+            "id": "two_on_two_off",
+            "name": "Contact training: 2on2off",
+            "purpose": "Stop at the bottom of a contact (dogwalk, teeter, A-frame): back feet in the yellow zone, front feet on the ground, until released.",
+            "level": 3,
+            "cues": [
+              "OK",
+              "Break",
+              "Alright"
+            ],
+            "steps": [
+              "Sit on the ground in front of (later beside) the plank.",
+              "Lure the dog onto the plank with a treat at its nose.",
+              "Slowly bring your hand to the ground close to the plank so the front paws step down.",
+              "Praise and place a treat between the front paws; keep feeding there, with a new treat ready before the mouth is empty.",
+              "While the dog eats, move your hand away from the nose and back.",
+              "If the dog leaves, stop talking and lure back into position.",
+              "After a few treats, when the dog looks at you, say the release word and drop/throw a treat away from the plank."
+            ],
+            "next": null,
+            "tip": "Introduce the release word from day one.",
+            "gear": [
+              "Sturdy board or the bottom stair as the 'contact'",
+              "Paper plate as a target"
+            ],
+            "source": "Foundation wk 12, Foundation wk 18"
+          },
+          "bonus": {
+            "kind": "Read",
+            "title": "Trick ideas",
+            "text": "Five tricks every dog should know: Middle, Toes, Retrieve, Tidy Away and Circling. Pick one for next week.",
+            "link": "https://absolute-dogs.com/blogs/gamechangers/5-top-tricks-every-dog-should-know-training-for-fun-and-practical-real-life-skills"
+          }
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "name": "Life Skills & Recall",
+      "short": "Life skills",
+      "blurb": "Being caught, being handled, settling, letting go, and coming when called (hallway edition).",
+      "days": [
+        {
+          "drill": {
+            "id": "collar_grab",
+            "name": "Collar grab",
+            "purpose": "Make being caught rewarding, so the dog doesn't dodge when you reach for it. It's also the start of the drive/focus games.",
+            "level": 1,
+            "cues": [
+              "Ready",
+              "Get It",
+              "Settle"
+            ],
+            "steps": [
+              "Touch/hold the collar, then reward.",
+              "Say the dog's name, hold the collar with a bit of pressure, feed, release the collar."
+            ],
+            "next": "Touch/hold collar > treat.",
+            "tip": null,
+            "gear": [
+              "Flat collar",
+              "Nail clippers (just to show, later)"
+            ],
+            "source": "Foundation wk 2, Foundation wk 3, Foundation wk 4, Foundation wk 6, Puppy K wk 3, Puppy K wk 4"
+          },
+          "bonus": {
+            "kind": "Practise",
+            "title": "Rehearse the vet hold",
+            "text": "Practise the collar & body hold motion on a stuffed animal: one arm under the tummy, one under the neck. Smooth hands make the real thing easier."
+          }
+        },
+        {
+          "drill": {
+            "id": "play_and_settle",
+            "name": "Play & Settle",
+            "purpose": "Teach a puppy to switch from excited play to calm, and to play with you appropriately (bite control).",
+            "level": 1,
+            "cues": [
+              "Settle",
+              "Good",
+              "Yes"
+            ],
+            "steps": [
+              "Play on your knees (taller = safer from face-biting). Gently push the pup away, wiggle fingers, provoke play.",
+              "Before the pup gets too wound up: hand in the collar (and hold the leash so they can't grab it), say 'Settle'.",
+              "When they relax, release collar pressure, say 'Yes', feed, and keep praising quietly ('Good boy, nice').",
+              "Restart play, then settle again before it escalates. Short spurts."
+            ],
+            "next": "Use it whenever the pup gets over-excited and nips.",
+            "tip": "No food in your hand while playing; it turns play into wanting the food.",
+            "gear": [
+              "Short house leash",
+              "Treats in a pocket, not in your hand"
+            ],
+            "source": "Puppy K wk 1, Puppy K wk 2, Puppy K wk 3, Puppy K wk 4"
+          },
+          "bonus": {
+            "kind": "Make",
+            "title": "Make a tea-towel tug",
+            "text": "Knot two old tea towels together into a braid with a handle loop at each end. Instant second toy for 'Out' trades."
+          }
+        },
+        {
+          "drill": {
+            "id": "tug_and_out",
+            "name": "Tug & 'Out' (toy exchange)",
+            "purpose": "Teach the dog to play with you, tug, and let go on cue.",
+            "level": 1,
+            "cues": [
+              "Out",
+              "Drop It",
+              "Give",
+              "Release",
+              "Mine"
+            ],
+            "steps": [
+              "Play on your knees (discourages face-biting). Wiggle the toy on the ground; push the pup away a little to make it more exciting.",
+              "Tug a few times, then stop and present the second toy while saying 'Out'. Hide the first toy behind your back if needed.",
+              "Repeat for a minute or two; stop before the pup tires or loses interest.",
+              "If teeth hit hand/clothes: hand in collar to stop (a toneless 'Ouch' or a Play & Settle), then restart. Biting ends the game."
+            ],
+            "next": "Adult dogs: let the dog bring the toy, tug a bit first, then 'Out' and trade for high-value food or another toy.",
+            "tip": null,
+            "gear": [
+              "Two equal tug toys (rolled tea towel works)",
+              "Hallway to keep the game contained"
+            ],
+            "source": "Foundation wk 8, Puppy K wk 2, Puppy K wk 3, Puppy K wk 4"
+          },
+          "bonus": {
+            "kind": "Move",
+            "title": "Brisk hallway laps",
+            "text": "Walk the hallway at 'late for something' pace for 3 minutes, practising crisp 180° turns. That's the loose-leash rhythm."
+          }
+        },
+        {
+          "drill": {
+            "id": "loose_leash_walking",
+            "name": "Loose leash walking",
+            "purpose": "Walk with a loose 'J' in the leash.",
+            "level": 1,
+            "cues": [],
+            "steps": [
+              "Start somewhere quiet (a hallway is ideal).",
+              "Pup on one side; leash in the opposite hand so it hangs in a 'J' from the collar. Treats in the hand nearest the pup (or a pouch on that hip).",
+              "Walk briskly, like you're late.",
+              "The moment the pup passes your hip, turn 180°, encouraging with 'pup pup pup'.",
+              "When they follow, 'Yes' and treat.",
+              "At first you may get only a couple of steps before turning; gradually go further."
+            ],
+            "next": "Once successful, move to more distracting places (e.g. back yard).",
+            "tip": null,
+            "gear": [
+              "6 ft leash",
+              "Treat pouch on your hip",
+              "Longest hallway in the house"
+            ],
+            "source": "Puppy K wk 1, Puppy K wk 3, Puppy K wk 4"
+          },
+          "bonus": {
+            "kind": "Watch",
+            "title": "Whisper training",
+            "text": "Saved video on quiet, low-voice cueing.",
+            "link": "https://vimeo.com/651673085/91eda2810a"
+          }
+        },
+        {
+          "drill": {
+            "id": "restrained_recall",
+            "name": "Restrained recall",
+            "purpose": "Build a fast, excited recall to a specific side.",
+            "level": 2,
+            "cues": [
+              "(name)",
+              "Here",
+              "Come"
+            ],
+            "steps": [
+              "Helper holds the dog. Step out about 30 ft (food-motivated dogs: show food first).",
+              "Without turning your body, look over your right shoulder (show your cheek), say the name, then immediately 'Here'/'Come'.",
+              "As you call, drop your right hand by your side and show the toy, so the dog comes to your right side.",
+              "On arrival: tug party (or jackpot several treats, excited voice).",
+              "Practise both sides."
+            ],
+            "next": "Puppy version: hold pup, handler runs away. Run > call name > 'Here'/'Come'. Look over your shoulder to the side you want.",
+            "tip": null,
+            "gear": [
+              "A helper",
+              "Hallway or basement run",
+              "Very visible toy"
+            ],
+            "source": "Foundation wk 5, Foundation wk 6, Puppy K wk 4"
+          },
+          "bonus": {
+            "kind": "Read",
+            "title": "Plan your recall rewards",
+            "text": "List your dog's top 5 rewards in order. Save the top two for 'Here' only, so the recall cue stays special."
+          }
+        }
+      ]
+    },
+    {
+      "id": "agility",
+      "name": "Agility Foundations",
+      "short": "Agility",
+      "blurb": "Flatwork you can do in a living room: position, sends, and turning away from you.",
+      "days": [
+        {
+          "drill": {
+            "id": "circle_work",
+            "name": "Circle work (shadow handling)",
+            "purpose": "Build value for the dog's position at your side (the 'reinforcement zone') at any speed.",
+            "level": 1,
+            "cues": [],
+            "steps": [
+              "Walk a circle around an object with the dog on the OUTSIDE. Clockwise = dog on your left.",
+              "Loose leash in the right hand; treats in the hand nearest the dog (tie the leash around your waist if feeding is awkward).",
+              "Feed constantly for correct position. High rate of reinforcement.",
+              "After 5–6 treats, break off and play (little tug games are good stress breaks).",
+              "Work both directions. No verbal corrections."
+            ],
+            "next": "Walk, dog on the outside, lots of food.",
+            "tip": "Be consistent all day: don't let the dog practise crossing your path or flicking away even when walking to/from the car or kennel (F03).",
+            "gear": [
+              "Kitchen chair or laundry basket to circle",
+              "Spatula with peanut butter for small dogs"
+            ],
+            "source": "Foundation wk 2, Foundation wk 3, Foundation wk 4, Foundation wk 5"
+          },
+          "bonus": {
+            "kind": "Practise",
+            "title": "Footwork without the dog",
+            "text": "Walk the lap-turn pattern alone around a chair: back up, dog-side leg and arm back, wait, then step forward. Do it on both sides until it feels like a dance."
+          }
+        },
+        {
+          "drill": {
+            "id": "send_to_target_plate",
+            "name": "Target plate: value & sends",
+            "purpose": "Teach the dog to look and drive ahead, independently of the handler, so you're free to handle.",
+            "level": 2,
+            "cues": [
+              "Ready",
+              "Get It",
+              "OK",
+              "Break",
+              "Alright"
+            ],
+            "steps": [
+              "Load the plate with food 2–3 ft away.",
+              "Collar grab, say 'Ready' (= look ahead).",
+              "When the dog flips its head to the plate, release with 'Get It' and race the dog to the plate.",
+              "Move the plate further away as drive and speed grow."
+            ],
+            "next": "Collar grab > Ready > head flips to plate > Get It.",
+            "tip": null,
+            "gear": [
+              "Paper plate or plastic lid as target plate",
+              "Hallway"
+            ],
+            "source": "Foundation wk 10, Foundation wk 11, Foundation wk 12, Foundation wk 14, Foundation wk 18, Foundation wk 6"
+          },
+          "bonus": {
+            "kind": "Watch",
+            "title": "Circle work video",
+            "text": "Watch circle work done well. Notice the dog's position at the handler's side on the curve.",
+            "link": "https://youtu.be/6OHVdhE9DqY"
+          }
+        },
+        {
+          "drill": {
+            "id": "flip_away",
+            "name": "Flip away (turning away from you)",
+            "purpose": "The dog reads a turn away from you. It's the foundation for lap turns.",
+            "level": 2,
+            "cues": [],
+            "steps": [
+              "Build on your recall: call with name + cookie fingers.",
+              "As the dog reaches your side, lure it away from you so it turns in a 'U' out from your body.",
+              "Step forward and feed."
+            ],
+            "next": null,
+            "tip": null,
+            "gear": [
+              "Treats in both hands",
+              "Clear floor space"
+            ],
+            "source": "Foundation wk 8, Your notes"
+          },
+          "bonus": {
+            "kind": "Read",
+            "title": "Backside sends",
+            "text": "What a backside send is and how it's taught. Good preview of where wraps lead.",
+            "link": "https://www.oneminddogs.com/blog/what-is-a-backside-send-in-dog-agility-and-how-do-you-teach-it/"
+          }
+        },
+        {
+          "drill": {
+            "id": "lap_turn",
+            "name": "Lap turn (cookie fingers)",
+            "purpose": "Turn the dog 180° away from you. Dogs naturally turn toward the handler, so this builds body awareness, two-sidedness, lead changes and following handling.",
+            "level": 2,
+            "cues": [],
+            "steps": [
+              "Treat at the dog's nose height. Back up shaking cookie fingers so the dog follows your hand.",
+              "As the dog reaches you, keep drawing it past your hip, then turn it away by rotating your wrist (left hand = clockwise, right hand = counter-clockwise).",
+              "Once it commits to the turn, you both move forward, parallel. Feed.",
+              "Start slow; add speed once smooth. Practise both sides."
+            ],
+            "next": "On the flat: back up, turn 180°, move forward and feed.",
+            "tip": null,
+            "gear": [
+              "Cone, upside-down recycling bin or kitchen chair as the 'wing'",
+              "Toy to throw"
+            ],
+            "source": "Foundation wk 10, Foundation wk 11, Foundation wk 12, Foundation wk 13, Foundation wk 13 video, Foundation wk 14, Foundation wk 8",
+            "img": "assets/lap-turn-week13.gif"
+          },
+          "bonus": {
+            "kind": "Move",
+            "title": "Work on your balance",
+            "text": "Practise quick direction changes: three steps forward, pivot, three steps back. Agility handlers need nimble feet too."
+          }
+        },
+        {
+          "drill": {
+            "id": "wrap",
+            "name": "Wrap (180° around an obstacle from the front)",
+            "purpose": "The dog drives forward to an obstacle and wraps tightly back around it.",
+            "level": 3,
+            "cues": [],
+            "steps": [
+              "Handler and dog face the same direction.",
+              "Send forward with your guiding (dog-side) arm and leg, hand kept low.",
+              "Wait for the dog to commit ('lock on'/'hook onto' the obstacle) before moving ahead. Be patient.",
+              "When smooth, throw a toy ahead so the dog powers out; tug.",
+              "Build send distance to 2–15 ft without going to the obstacle's plane."
+            ],
+            "next": null,
+            "tip": null,
+            "gear": [
+              "Recycling bin, laundry basket or chair as the obstacle",
+              "Toy to throw"
+            ],
+            "source": "Foundation wk 14, Foundation wk 14 video"
+          },
+          "bonus": {
+            "kind": "Make",
+            "title": "Make target plates",
+            "text": "Cut three plastic lids or paper plates; add a strip of coloured tape so your dog can spot them on any floor."
+          }
+        }
+      ]
+    }
+  ]
+}

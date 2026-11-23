@@ -1,0 +1,15 @@
+/* Winter Training design tokens (see docs/DESIGN.md). No green. */
+/* VOICE everyday: calm, warm, low-pressure; one drill a day, no timers or scores
+   IDEA a saddle-leather training journal on a birch table: one weekly theme, five day pages
+   PICTURE the live day card itself: drill, steps, gear, with a human bonus beside it
+   COLOUR Winter Training tokens: sand #FBF7F0, wheat #F3E9DC, acorn #7A431D, amber #D9822B, honey #E5B25D, espresso #231B15. No green.
+   TYPE Epilogue headings, Source Sans 3 body, Space Grotesk labels
+   LAYOUT header > theme bar > day strip > drill card (wide) + bonus & gear column; stacks under 760px */
+:root{color-scheme:light dark;
+ --bg:light-dark(#FBF7F0,#1c1511);--card:light-dark(#F3E9DC,#2a201a);--card2:light-dark(#FFFFFF,#33281f);--over:light-dark(#EDE1D0,#3b2e24);
+ --ink:light-dark(#231B15,#F3E9DC);--ink2:light-dark(#52443c,#d7c2b7);--muted:light-dark(#6B5E52,#b9a594);
+ --acorn:light-dark(#7A431D,#ffb68a);--acornH:light-dark(#633516,#ffc9a6);--onacorn:light-dark(#FBF7F0,#321300);
+ --amber:#D9822B;--honey:light-dark(#E5B25D,#f2be68);--line:light-dark(#EADBC8,#4a3b30);--edge:light-dark(rgba(122,67,29,.14),rgba(255,182,138,.16));
+ --shadow:0 8px 24px -4px rgba(35,27,21,.08),0 2px 6px -1px rgba(35,27,21,.04)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+/* printable sheet */
